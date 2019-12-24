@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="ARKANOID.jnlp">
+  <information>
+    <title>ARKANOID</title>
+    <vendor>Abanoub</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="ARKANOID.jar" size="57738387" download="eager" />
+    <jar href="lib\FXGL-0.2.8-uber.jar" size="8557497" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="ARKANOID" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Arkanoid.Arkanoid_main"  name="ARKANOID" />
+  <update check="always"/>
+</jnlp>
