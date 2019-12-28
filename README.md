@@ -21,7 +21,7 @@ Arkanoid is an arcade game expanded upon Atari's Breakout games(early ball and p
 - Some bricks have to be hit multiple times before destruction (As in Level 2).
 - The player's Paddle has to "catch" the Power up capsule by touching it with the paddle .
 - During game play, pills/capsules fall from destroyed bricks Called Power ups. When collected, these pills have various effects on the Paddle .
-- Among the many Effects the power ups provided : An increased or decreased paddle size, multiple balls, An increased or decreasedball speed and even a laser cannon attachment that allowed the player's paddle to shoot the bricks.
+- Among the many Effects the power ups provided : An increased or decreased paddle size, multiple balls, An increased or decreased ball speed and even a laser cannon attachment that allowed the player's paddle to shoot the bricks.
 
 ## Game Developers :
 - **Abanoub Asaad**
