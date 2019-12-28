@@ -40,7 +40,7 @@ public class PlayerNameFile
     Button btn_start = new Button(); 
     Line sep ;
     
-    File file = new File("F:\\ds\\ARKANOID (Last Version)Git\\player.txt");
+    File file = new File("F:\\Arkanoid-Game--master\\src\\Resources\\Files\\player.txt");
     FileWriter filewriter ;
     BufferedWriter bufferwriter ;
      

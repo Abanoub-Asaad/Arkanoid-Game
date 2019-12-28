@@ -85,7 +85,7 @@ public class Arkanoid_main extends Application {
     Scanner scanner;
     Iterator iterator;
 
-    File file = new File("F:\\ds\\ARKANOID (Last Version)Git\\player.txt");
+    File file = new File("F:\\Arkanoid-Game--master\\src\\Resources\\Files\\player.txt");
     boolean check_extra50 = false, check_extra100 = false;
 
     @Override

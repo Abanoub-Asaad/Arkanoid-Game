@@ -12,46 +12,46 @@ public  class Sound
      
          //sound 
        //sound of block
-           public  static   String ssound = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\hit.mp3";
+           public  static   String ssound = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\hit.mp3";
            public  static   Media sound = new Media(new File(ssound).toURI().toString());
            public  static   MediaPlayer mediaPlayer_block = new MediaPlayer(sound);
            public  static   MediaView mediaview = new MediaView(mediaPlayer_block);
           //sound of ball when he lose
-            public  static    String ssound2 = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\losing sounds.mp3";
+            public  static    String ssound2 = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\losing sounds.mp3";
             public  static    Media sound2 = new Media(new File(ssound2).toURI().toString());
             public  static    MediaPlayer  mediaPlayer_ball_out = new MediaPlayer(sound2);
             public  static    MediaView mediaview2 = new MediaView(mediaPlayer_ball_out);
            // wining sound 
-            public   static   String ssound3 = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\nextLevel.mp3";
+            public   static   String ssound3 = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\nextLevel.mp3";
             public   static   Media sound3 = new Media(new File(ssound3).toURI().toString());
             public   static   MediaPlayer  mediaPlayer_win = new MediaPlayer(sound3);
             public   static   MediaView mediaview3 = new MediaView(mediaPlayer_win);
             //menu sound
-            public static    String ssound4 = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\menu_item_select.mp3";
+            public static    String ssound4 = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\menu_item_select.mp3";
             public static    Media sound4 = new Media(new File(ssound4).toURI().toString());
             public static    MediaPlayer  mediaPlayer_menu  = new MediaPlayer(sound4);
             public static    MediaView mediaview4 = new MediaView(mediaPlayer_menu);
              
             //Background Sound 
-            public static    String ssound5 = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\background.mp3";
+            public static    String ssound5 = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\background.mp3";
             public static    Media sound5 = new Media(new File(ssound5).toURI().toString());
             public static    MediaPlayer  mediaPlayer_background  = new MediaPlayer(sound5);
             public static    MediaView mediaview5 = new MediaView(mediaPlayer_background);
             
             //When Capsule hits the paddle "Sound" 
-            public static    String ssound6 = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\capsule.mp3";
+            public static    String ssound6 = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\capsule.mp3";
             public static    Media sound6 = new Media(new File(ssound6).toURI().toString());
             public static    MediaPlayer  mediaPlayer_Capsule  = new MediaPlayer(sound6);
             public static    MediaView mediaview6 = new MediaView(mediaPlayer_Capsule);
             
             //Mouse's click sound in draw your level
-            public static    String ssound7 = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\Mouse-Click.mp3";
+            public static    String ssound7 = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\Mouse-Click.mp3";
             public static    Media sound7 = new Media(new File(ssound7).toURI().toString());
             public static    MediaPlayer  mediaPlayer_clickMouse  = new MediaPlayer(sound7);
             public static    MediaView mediaview7 = new MediaView(mediaPlayer_clickMouse); 
             
            //Menu Background
-            public static    String ssound8 = "F:\\ds\\ARKANOID (Last Version)Git\\ARKANOID\\src\\Resources\\Sounds\\Groovy-drum-beat-112-bpm.wav";
+            public static    String ssound8 = "F:\\Arkanoid-Game--master\\src\\Resources\\Sounds\\Groovy-drum-beat-112-bpm.wav";
             public static    Media sound8 = new Media(new File(ssound8).toURI().toString());
             public static    MediaPlayer  mediaPlayer_Menu_Back = new MediaPlayer(sound8);
             public static    MediaView mediaview8 = new MediaView(mediaPlayer_Menu_Back); 

@@ -1,7 +1,6 @@
 
 package Arkanoid;
 
-import java.util.Random;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 
@@ -9,7 +8,7 @@ import javafx.scene.image.ImageView;
 public class Ball
 {
     
-    Image ballImage = new Image("Resources/Images/Ball/ball.png",30,30,false,false);
+    Image ballImage = new Image("Resources/Images/Ball.png",30,30,false,false);
     ImageView ball_iv = new ImageView(ballImage); 
 
     double Height = 48;
